@@ -1,0 +1,54 @@
+
+/* DESIGN CHAT BTN */
+.chat-btn{
+    position: fixed;
+    top: 93%;
+    left: 96.5%;
+}
+.chat-btn button{
+    background-color: rgb(255, 68, 0);
+    color: white;
+    border: none;
+    padding: 9px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.chat-btn button:hover{
+    transform: scale(1.05);
+}
+
+
+/* ALL PRODUCTS SECTION */
+/* all product heading */
+.all-products-section .all-products-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all-products-section .all-products-heading button{
+    background-color: transparent;
+    padding: 10px 50px;
+    border: 1px solid rgba(255, 68, 0, 0.425);
+    color: orangered;
+}
+
+/* ALL PRODUCTS SHOW */
+.all-products-section .all-products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+    margin: 50px 0px;
+}
+.all-products-section .card .image{
+    width: auto;
+}
+.all-products-section .card .heart{
+    bottom: 86%;
+    left: 86.5%;
+}
+.all-products-section .card .new{
+    bottom: 86%;
+    right: 77.1%;
+}

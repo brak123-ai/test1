@@ -1,0 +1,241 @@
+@media (max-width: 1024px) {
+
+    /* HERO SECTION */
+    .home-hero-section {
+        flex-direction: column;
+        padding: 50px 0px;
+        text-align: center;
+        height: auto;
+    }
+
+    .home-hero-section .home-hero-heading {
+        padding: 20px;
+    }
+
+    .home-hero-section .bg-img,
+    .home-hero-section .home-hero-heading {
+        width: 100%;
+    }
+
+    /* ENGINE SECTION */
+    .engine-img .engine-heading {
+        font-size: 1.5rem;
+        top: 72%;
+        width: auto;
+    }
+
+    /* PRODUCTS BRANDS SECTION*/
+    .product-brand {
+        flex-direction: column;
+    }
+
+    .product-brand .div {
+        width: 100%;
+    }
+
+    .product-brand .div-detail {
+        padding: 15px;
+    }
+    
+    /* FOOTER */
+    .footer {
+        flex-direction: column;
+    }
+    
+
+    /* ===> IN PRODUCTS PAGES <=== */
+    /* DESIGN CHAT BTN */
+    .chat-btn{
+        left: 95.8%;
+    }
+    /* ALL PRODUCTS SHOW */
+    .all-products-section .all-products{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* ===> IN BLOGS PAGES <=== */
+    /* main1 */
+    .blog-body .main1{
+        width: 60%;
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    /* main2 */
+    .blog-body .main2{
+        width: 50%;
+    }
+
+    /* ===> IN CONTACT PAGES <=== */
+    /* MAIN2 */
+    .contact .main2{
+        flex-direction: column;
+    }
+    .contact .main2 div{
+        width: 100%;
+    }
+
+    /* ===> IN ABOUT PAGES <=== */
+    /* ABOUT BODY SECTION */
+    .about-body .about-our{
+        flex-direction: column;
+    }
+    .about-body .about-our .img1,
+    .about-body .about-our .about-detail{
+        width: 100%;
+    }
+    .about-body .about-our .img2{
+        top: 30%;
+        left: 64%;
+    }
+    
+    /* PROFESSIONAL AUTO PART SECTION */
+    .professional .btn{
+        flex-direction: column;
+    }
+
+    /* CUSTOMER COMMENTS SECTION */
+    /* cards in customer comments */
+    .customer-comment .comment-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .header .logo {
+        display: none;
+    }
+
+    .header .nav {
+        margin: 0px auto;
+    }
+
+    /* HERO SECTION */
+    .home-hero-section .home-hero-heading h1 {
+        font-size: 2rem;
+    }
+
+    /* ENGINE SECTION */
+    .engine-img .engine-heading {
+        font-size: 1rem;
+        top: 73%;
+    }
+
+    /* DISCOUNT ADS SECTION */
+    .discount-ads {
+        font-size: 1.5rem;
+    }
+
+    /* ===> IN PRODUCTS PAGES <=== */
+    /* DESIGN CHAT BTN */
+    .chat-btn{
+        left: 95.2%;
+    }
+    /* ALL PRODUCTS SHOW */
+    .all-products-section .all-products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .all-products-section .card .new{
+        right: 81.1%;
+    }
+    
+
+    /* ===> IN BLOGS PAGES <=== */
+    /* BLOGS BODY SECTION */
+    .blog-body{
+        flex-direction: column;
+    }
+    /* main1 */
+    .blog-body .main1{
+        width: 100%;
+    }
+    .blog-body .main1 .card{
+        width: 100%;
+    }
+    /* main2 */
+    .blog-body .main2{
+        width: 100%;
+    }
+
+    /* ===> IN CONTACT PAGES <=== */
+    .contact .main1{
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
+
+    /* ===> IN ABOUT PAGES <=== */
+    /* ABOUT BODY SECTION */
+    .about-body .about-our .img2{
+        top: 45%;
+    }
+
+    /* CUSTOMER COMMENTS SECTION */
+    /* cards in customer comments */
+    .customer-comment .comment-card{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 648px) {
+
+    /* HEADER */
+    .header .nav {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    /* HERO SECTION */
+    .home-hero-section .home-hero-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .home-hero-section .home-hero-heading p {
+        font-size: 13px;
+    }
+
+    .home-hero-heading button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    /* ENGINE SECTION */
+    .engine-img .engine-heading {
+        font-size: 0.8rem;
+        top: 80%;
+    }
+
+    .engine-section .engine-detail {
+        margin-top: 50px;
+    }
+
+    /* DISCOUNT ADS SECTION */
+    .discount-ads {
+        font-size: 1.2rem;
+    }
+
+    /* ===> IN PRODUCTS PAGES <=== */
+    /* DESIGN CHAT BTN */
+    .chat-btn{
+        left: 90.5%;
+    }
+    /* ALL PRODUCTS SHOW */
+    .all-products-section .all-products-heading{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .all-products-section .all-products{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .all-products-section .card .image{
+        width: 300px;
+    }
+
+    /* ===> IN BLOGS PAGES <=== */
+    /* main2 */
+    /* SEARCH CARD */
+    .main2 .main2-card .search-btn{
+        flex-wrap: wrap;
+    }
+}

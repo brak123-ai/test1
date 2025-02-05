@@ -1,0 +1,126 @@
+
+
+/* BLOGS BODY SECTION */
+.blog-body{
+    display: flex;
+    gap: 20px;
+}
+/* main1 */
+.blog-body .main1{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.blog-body .main1 .card{
+    height: fit-content;
+    width: 310px;
+    font-size: 0.8rem;
+    border: none;
+}
+.blog-body .main1 .card .image{
+    width: auto;
+    height: auto;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    padding: 10px;
+}
+.blog-body .main1 .card .read-more{
+    text-align: justify;
+    padding: 20px;
+}
+.blog-body .main1 .card .read-more p{
+    margin: 15px 0px;
+}
+
+.blog-body .main1 .card .read-more .p-detail,
+.blog-body .main1 .card .read-more h3{
+    height: 62px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blog-body .main1 .card .read-more button{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.578);
+    color: black;
+    border-radius: 10px;
+    margin: 15px 0px;
+    padding: 9px 20px;
+    font-size: 0.7rem;
+    transition: all 0.3s;
+}
+.blog-body .main1 .card .read-more button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+/* MAIN 2 */
+.blog-body .main2{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main2 .main2-card{
+    border: 1px solid rgba(128, 128, 128, 0.549);
+    padding: 30px 20px;
+}
+
+/* SEARCH CARD */
+.main2 .main2-card .search-btn{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.main2 .main2-card .search-btn input{
+    width: 180px;
+    padding: 10px 8px;
+}
+.main2 .main2-card .search-btn input:focus{
+    outline: none;
+    border: 1px solid red;
+}
+.main2 .main2-card .search-btn button{
+    padding: 10px 23px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* POPULAR TAG CARD */
+.main2 .popular-tags{
+    margin: 35px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.main2 .popular-tags button{
+    padding: 3px 10px;
+    font-size: 11px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.main2 .popular-tags button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+/* ADS */
+.main2 .ads{
+    margin: 20px 0px;
+}
+.main2 .ads img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    opacity: 0.5;
+}
